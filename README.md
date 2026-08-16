@@ -1,6 +1,9 @@
+cat > README.md << 'EOF'
 # Quantum Materials SLM and Spin-Photon Coupling Screening
 
-This repository contains the code, data, and report for an exploratory study on room-temperature spin-photon coupling in solid-state defects. The original aim was to build a small language model (SLM) for material science, but the project evolved into a physics-grounded screening pipeline using deterministic calculations, Gaussian Process regression, and a manually curated defect database.
+This is an exploratory, self-directed computational screening study. It is not a lab measurement and has not been peer-reviewed.
+
+The original aim was to build a small language model (SLM) for material science, but the project evolved into a physics-grounded screening pipeline using deterministic calculations, Gaussian Process regression, and a manually curated defect database.
 
 ## Key Findings
 
@@ -8,6 +11,10 @@ This repository contains the code, data, and report for an exploratory study on 
 - Screened four SOC-free mechanism classes and found none that currently beat the baseline.
 - Discovered that zero-temperature DFT Debye-Waller factors systematically overestimate room-temperature viability; a temperature correction can lower cooperativity by nearly an order of magnitude.
 - Identified a sharper search directive: inversion-symmetric sites with orbital degeneracy but SOC-free spin transitions, inspired by SiV⁻'s behavior.
+
+## Full Report
+
+The complete technical report is available at: [v4/final_report.md](v4/final_report.md)
 
 ## Directory Structure
 
@@ -26,3 +33,8 @@ This repository contains the code, data, and report for an exploratory study on 
 ## Status
 
 This project is archived as an internal study. Before any public release, a human verification pass is required to confirm all literature values and conventions.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
+EOF
