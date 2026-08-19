@@ -1,0 +1,58 @@
+[
+  {
+    "id": "diamond_p1",
+    "host": "Diamond",
+    "formula": "C",
+    "defect": "P1 center",
+    "spin": 0.5,
+    "symmetry": "C3v",
+    "soc_constant_meV": 0.0,
+    "T1_ms": 10.0,
+    "T1_temp_K": 300,
+    "T2_ms": 0.5,
+    "T2_temp_K": 300,
+    "source_doi": "10.1103/PhysRevB.94.245301"
+  },
+  {
+    "id": "diamond_nv",
+    "host": "Diamond",
+    "formula": "C",
+    "defect": "NV-",
+    "spin": 1,
+    "symmetry": "C3v",
+    "soc_constant_meV": 0.0,
+    "T1_ms": 5.0,
+    "T1_temp_K": 300,
+    "T2_ms": 1.8,
+    "T2_temp_K": 300,
+    "source_doi": "10.1103/PhysRevB.85.205203"
+  },
+  {
+    "id": "sic_vsi",
+    "host": "4H-SiC",
+    "formula": "SiC",
+    "defect": "V_Si (V2)",
+    "spin": 1.5,
+    "symmetry": "C3v",
+    "soc_constant_meV": 0.0,
+    "T1_ms": 1.0,
+    "T1_temp_K": 300,
+    "T2_ms": 0.5,
+    "T2_temp_K": 300,
+    "source_doi": "10.1038/nmat4145"
+  },
+  {
+    "id": "sic_vv",
+    "host": "4H-SiC",
+    "formula": "SiC",
+    "defect": "Divacancy (hh)",
+    "spin": 1,
+    "symmetry": "C3v",
+    "soc_constant_meV": 0.0,
+    "T1_ms": 1.2,
+    "T1_temp_K": 300,
+    "T2_ms": 0.6,
+    "T2_temp_K": 300,
+    "source_doi": "10.1103/PhysRevB.83.235202"
+  }
+]
