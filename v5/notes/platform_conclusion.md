@@ -1,16 +1,20 @@
-# Direction B Platform Conclusion
+# Direction B Platform Conclusion (Corrected)
 
 ## Verified Facts
 
 ### Silicon
-- Excellent spin centers: phosphorus donors, T2 long, exchange at 10-20 nm.
-- No room-temperature optical antenna.
-- T-center: telecom wavelength, spin-active, but cryogenic only (3.6 K) due to weak exciton binding (22.5-35 meV).
+- Excellent spin centers: phosphorus donors, long T2.
+- Exchange coupling demonstrated at 10-20 nm, even 30-45 nm with superexchange chains.
+- But achieving this requires STM atomic-precision lithography—placing individual phosphorus atoms one at a time.
+- Displacing a donor by a few lattice spacings changes exchange by >10×.
+- Fabrication challenge is comparable to diamond’s sub-nm requirement, not easier.
+- No room-temperature optical antenna. T-center is cryogenic only due to weak exciton binding.
 
 ### Diamond
 - Excellent room-temperature antennas: SiV-, SnV-, PbV-.
 - Good spin centers: P1, NV-.
-- Exchange requires sub-nm separation. Fabrication gap 30-50x.
+- Exchange requires sub-nm separation.
+- Fabrication requires deterministic sub-nm implantation, also frontier-level.
 
 ### SiN
 - Bright room-temperature emission, integrated photonics ready.
@@ -23,4 +27,4 @@ Direction B is physically possible but requires either:
 1. A new room-temperature optical antenna in silicon, or
 2. Deterministic sub-nm fabrication in diamond/hBN.
 
-Both are open research frontiers.
+Both are comparably hard, frontier-level fabrication problems. Neither is closer to solved than the other based on current evidence.

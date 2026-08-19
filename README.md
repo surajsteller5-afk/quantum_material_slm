@@ -82,3 +82,11 @@ A complete, honest scientific workflow:
 ### Status
 
 Archived as a complete internal study. Human verification pending for public release.
+
+### Fabrication Correction
+
+Both open frontiers require comparably difficult fabrication advances:
+- Silicon donor exchange at 10-20 nm requires STM atomic-precision lithography.
+- Diamond/hBN hybrid pairs require deterministic sub-nm implantation.
+
+Neither platform is closer to a solution than the other.
