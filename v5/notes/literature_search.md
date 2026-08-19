@@ -4,31 +4,34 @@ cat > v5/notes/literature_search.md << 'EOF'
 ## Date
 2026-08-19
 
-## Finding
-Exchange coupling J ≥ 50 MHz is physically achievable in multiple host systems.
+## Scope
+We distinguish physics precedent from fabrication feasibility. The two are not interchangeable.
 
-## Confirmed Systems
+## Physics Precedent: Real but Not New
+Exchange coupling J ≥ 50 MHz exists in accidentally formed close defect pairs:
 
-### Diamond
-- NV⁻–P1 pairs: J = 50 MHz to >1 GHz at 0.5–1.2 nm separation.
-- NV⁻–NV⁻ pairs: similar range.
-- Application: local multi-qubit registers, optical readout via NV⁻.
+- Diamond: NV⁻–P1, NV⁻–NV⁻ pairs, J = 50 MHz to >1 GHz.
+- Silicon Carbide: divacancy and donor-acceptor pairs, J > 100 MHz.
+- hBN: proposed exchange-coupled pairs; bright RT emission reported separately.
 
-### Silicon Carbide (4H-SiC / 3C-SiC)
-- Divacancies (V_Si V_C) and donor-acceptor pairs.
-- J > 100 MHz for nearest-neighbor V_Si-V_C pairs.
-- Emission in NIR/telecom, suitable for fiber networks.
+These are natural/accidental pairs, not deterministically fabricated devices.
 
-### Hexagonal Boron Nitride (hBN)
-- O_N–V_B and C_B related exchange-coupled pairs.
-- J > 100 MHz.
-- Bright room-temperature single-photon emission with ODMR.
+## Fabrication Feasibility: Open Frontier
+- State-of-the-art focused ion beam precision: 30–50 nm.
+- Required separation for J ≥ 50 MHz: sub-1 nm.
+- Gap: 30–50× beyond current capability.
+- Two-species co-implantation with controlled relative placement is unsolved.
+- Annealing integration with FIB remains an open problem in diamond and hBN.
 
-## Implications
-- Exchange coupling of 50 MHz is experimentally demonstrated.
-- Direction B is feasible in diamond, SiC, and hBN platforms.
-- Main challenge is deterministic sub-nm fabrication, not coupling strength.
+## Conclusion
+Direction B is not physically impossible, but it is orders of magnitude beyond current deterministic fabrication. This is a genuine open frontier, not a near-term engineering task.
 
 ## Next Step
-Identify a specific spin-center + antenna pair with known exchange and preserved optical properties.
+Refine search to:
+1. Specific experimental or theoretical papers demonstrating exchange coupling in known pairs.
+2. Any work showing preservation of antenna optical properties in close pairs.
+3. Separately assess whether stochastic/accidental pair formation can be scaled.
+
+## Status
+Awaiting sources for hBN and SiC pair claims before finalizing.
 EOF
