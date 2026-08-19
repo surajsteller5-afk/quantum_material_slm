@@ -38,3 +38,13 @@ This project is archived as an internal study. Before any public release, a huma
 
 MIT License. See [LICENSE](LICENSE).
 EOF
+
+## Direction B: Exchange-Coupled Hybrid Architecture
+
+We also evaluated a two-site hybrid approach: a bright optical antenna (e.g., SiV⁻) exchange-coupled to a long-lived spin center.
+
+- Strong coupling is predicted for exchange J ≥ 50 MHz.
+- This is physically plausible and has precedent in NV⁻–P1 pairs.
+- However, deterministic fabrication of such pairs is 30–50× beyond current capability.
+
+See `v5/` for the full investigation.
