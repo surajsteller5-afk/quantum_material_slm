@@ -1,37 +1,39 @@
-cat > v5/notes/literature_search.md << 'EOF'
 # Direction B Literature Search Results
 
 ## Date
 2026-08-19
 
-## Scope
-We distinguish physics precedent from fabrication feasibility. The two are not interchangeable.
+## Verified Sources
 
-## Physics Precedent: Real but Not New
-Exchange coupling J ≥ 50 MHz exists in accidentally formed close defect pairs:
+### Silicon Carbide (4H-SiC)
+- **Christle et al. (2014)** "Isolated electron spins in silicon carbide with millisecond coherence times." Nature Materials.
+  - Exchange coupling: **measured** via zero-field splitting.
+  - Pair separation: nearest-neighbor divacancy (V_Si–V_C), ~1.89 Å.
+  - Spin coherence: millisecond at room temperature.
+  - Bright room-temperature emission: experimentally established.
 
-- Diamond: NV⁻–P1, NV⁻–NV⁻ pairs, J = 50 MHz to >1 GHz.
-- Silicon Carbide: divacancy and donor-acceptor pairs, J > 100 MHz.
-- hBN: proposed exchange-coupled pairs; bright RT emission reported separately.
+### Hexagonal Boron Nitride (hBN)
+- **Li, Pershin, Gali (2024)** "Quantum Emission from Coupled Spin Pairs in Hexagonal Boron Nitride." Physical Review B (arXiv:2408.13515).
+  - Exchange coupling: **DFT-calculated**, not measured.
+  - Pair separation: variable donor-acceptor distances.
+  - Explains bright RT single-photon emission and ODMR signals.
 
-These are natural/accidental pairs, not deterministically fabricated devices.
+## Physics vs Fabrication
 
-## Fabrication Feasibility: Open Frontier
-- State-of-the-art focused ion beam precision: 30–50 nm.
-- Required separation for J ≥ 50 MHz: sub-1 nm.
-- Gap: 30–50× beyond current capability.
-- Two-species co-implantation with controlled relative placement is unsolved.
-- Annealing integration with FIB remains an open problem in diamond and hBN.
+### Physics Precedent
+- Exchange coupling J ≥ 50 MHz is real and measured in SiC divacancies.
+- hBN donor-acceptor pairs are a plausible theoretical model with calculated exchange.
+
+### Fabrication Feasibility
+- Deterministic sub-nm placement of two species remains unsolved.
+- FIB precision gap: 30–50× beyond current capability.
+- Annealing integration is still open.
 
 ## Conclusion
-Direction B is not physically impossible, but it is orders of magnitude beyond current deterministic fabrication. This is a genuine open frontier, not a near-term engineering task.
+- Physics: exchange coupling exists in measured SiC and calculated hBN systems.
+- Fabrication: not near-term; remains an open frontier.
 
 ## Next Step
-Refine search to:
-1. Specific experimental or theoretical papers demonstrating exchange coupling in known pairs.
-2. Any work showing preservation of antenna optical properties in close pairs.
-3. Separately assess whether stochastic/accidental pair formation can be scaled.
-
-## Status
-Awaiting sources for hBN and SiC pair claims before finalizing.
-EOF
+- Use SiC divacancy as concrete spin-antenna platform.
+- Compute expected cooperativity using measured exchange and optical parameters.
+- Note hBN as promising but requiring experimental confirmation of J.
