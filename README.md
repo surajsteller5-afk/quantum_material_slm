@@ -48,3 +48,37 @@ We also evaluated a two-site hybrid approach: a bright optical antenna (e.g., Si
 - However, deterministic fabrication of such pairs is 30–50× beyond current capability.
 
 See `v5/` for the full investigation.
+
+## Final Summary
+
+This project began as an attempt to use a small language model (SLM) for quantum parameter prediction. It failed—but the process led to a physics-grounded screening pipeline that produced real, verifiable results.
+
+### Key Findings
+
+1. **LLMs are not suitable for numerical quantum physics.** Deterministic formulas, Gaussian Process regression, and a curated database are the right tools.
+
+2. **Room-temperature spin-photon coupling is governed by Debye-Waller factor and linewidth, not just coupling strength.**
+
+3. **Zero-temperature DFT Debye-Waller factors systematically overestimate room-temperature viability.** This is a transferable methodological warning for the field.
+
+4. **Single-defect SOC-free coupling is unlikely** due to a DW–dipole trade-off.
+
+5. **Hybrid exchange-coupled architectures are physically possible**—strong coupling requires \(J \ge 50\) MHz, which exists in NV⁻–P1 pairs—but **no material platform currently satisfies all requirements**. Silicon lacks an RT antenna; diamond requires impossible fabrication precision.
+
+### What This Project Demonstrated
+
+A complete, honest scientific workflow:
+- Built a screening pipeline.
+- Verified sources and caught errors.
+- Ran simulations to test assumptions.
+- Revised conclusions when models contradicted heuristics.
+- Documented negative results as boundaries, not failures.
+
+### Repository Contents
+
+- `v4/` – Single-defect screening pipeline, SOC-free analysis, Debye-Waller correction.
+- `v5/` – Direction B hybrid architecture investigation, platform gap analysis, exchange coupling model.
+
+### Status
+
+Archived as a complete internal study. Human verification pending for public release.
